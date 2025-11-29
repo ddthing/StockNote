@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* 모바일 최적화 */
+@media (max-width: 600px) {
+  .sector-item {
+    padding: 14px;
+    font-size: 1.1rem;
+  }
+
+  .sector-detail {
+    padding: 16px;
+    font-size: 1rem;
+  }
+}
+
+.sector-item {
+  background: white;
+  padding: 18px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sector-item:hover {
+  transform: scale(1.02);
+}
+
+.sector-detail {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
