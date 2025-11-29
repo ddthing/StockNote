@@ -545,8 +545,7 @@ const App = () => {
                           >
                             <div className="flex flex-col">
                               <div className="flex items-center gap-2">
-                                {/* Checkbox style bullet */}
-                                <div className="w-4 h-4 border border-slate-400 rounded-sm mt-1"></div>
+                                {/* Checkbox removed */}
                                 
                                 <span className="text-lg font-bold text-slate-800 relative">
                                    {stock.name}
